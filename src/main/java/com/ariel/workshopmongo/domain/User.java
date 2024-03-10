@@ -18,9 +18,9 @@ public class User implements Serializable {
 	public User() {
 	}
 
-	public User(String id, String nome, String email) {
+	public User(String id, String name, String email) {
 		this.id = id;
-		this.name = nome;
+		this.name = name;
 		this.email = email;
 	}
 
@@ -36,7 +36,7 @@ public class User implements Serializable {
 		return name;
 	}
 
-	public void setNome(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
